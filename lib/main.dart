@@ -33,16 +33,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  // final PageData healthPage = PageData("1. Самочувствие", health);
-  // final PageData moodPage = PageData("2. Настроение", mood);
-  // final PageData attitudeChildPage = PageData("3. Отношение к ребенку", attitudeChild);
-  // final PageData childbirthPage = PageData("4. Отношение к родам", childbirth);
-  // final PageData attitudeDoctorsPage = PageData("5. Отношение к врачам", attitudeDoctors);
-  // final PageData attitudeHusbandPage = PageData("6. Отношение к мужу", attitudeHusband);
-  // final PageData attitudeLovedOnesPage = PageData("7. Отношение к близким", attitudeLovedOnes);
-  // final PageData attitudeOthersPage = PageData("8. Отношение к окружающим", attitudeOthers);
-  // final PageData attitudeLifestylePage = PageData("9. Отношение к образу жизни в период беременности", attitudeLifestyle);
-  // final PageData afterChildbirthPage = PageData("10. Отношение к образу жизни после родов", afterChildbirth);
   List<PageData> dataSet = [
     PageData("1. Самочувствие", health),
     PageData("2. Настроение", mood),
@@ -75,38 +65,6 @@ class _MyHomePageState extends State<MyHomePage> {
         }
       });
     };
-    // switch(pageIndex){
-    //   case 0:
-    //     page = PageList(healthPage, next, null);
-    //     break;
-    //   case 1:
-    //     page = PageList(moodPage, next, prev);
-    //     break;
-    //   case 2:
-    //     page = PageList(attitudeChildPage, next, prev);
-    //     break;
-    //   case 3:
-    //     page = PageList(childbirthPage, next, prev);
-    //     break;
-    //   case 4:
-    //     page = PageList(attitudeDoctorsPage, next, prev);
-    //     break;
-    //   case 5:
-    //     page = PageList(attitudeHusbandPage, next, prev);
-    //     break;
-    //   case 6:
-    //     page = PageList(attitudeLovedOnesPage, next, prev);
-    //     break;
-    //   case 7:
-    //     page = PageList(attitudeOthersPage, next, prev);
-    //     break;
-    //   case 8:
-    //     page = PageList(attitudeLifestylePage, next, prev);
-    //     break;
-    //   case 9:
-    //     page = PageList(afterChildbirthPage, next, prev);
-    //     break;
-    // }
     return Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
