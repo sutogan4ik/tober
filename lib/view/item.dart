@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'data.dart';
+import '../data/data.dart';
 
 class ListItem extends StatelessWidget {
   Answer answer;
@@ -11,6 +11,7 @@ class ListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.all(5),
       width: 0,
       child: Row(
         children: [
